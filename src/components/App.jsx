@@ -1,32 +1,32 @@
 import React from "react";
 import Cards from "./Cards";
-import Contacts from "./contacts"
+import contacts from "../contacts"
 
 function App() {
   return (
   <div>
    <h1 className="heading">My Contacts</h1>
      <Cards
-     name = {Contacts[0].name}
-     imgURL = {Contacts[0].imgURL}
-     phone = {Contacts[0].phone}
-     email ={Contacts[0].email  }
+     name = {contacts[0].name}
+     imgURL = {contacts[0].imgURL}
+     phone = {contacts[0].phone}
+     email ={contacts[0].email  }
    
    />
 
     <Cards 
-     name = {Contacts[1].name}
-     imgURL = {Contacts[1].imgURL}
-     phone = {Contacts[1].phone}
-     email ={Contacts[1].email  }
+     name = {contacts[1].name}
+     imgURL = {contacts[1].imgURL}
+     phone = {contacts[1].phone}
+     email ={contacts[1].email  }
    
     />
 
 <Cards 
-     name = {Contacts[2].name}
-     imgURL = {Contacts[2].imgURL}
-     phone = {Contacts[2].phone}
-     email ={Contacts[2].email  }
+     name = {contacts[2].name}
+     imgURL = {contacts[2].imgURL}
+     phone = {contacts[2].phone}
+     email ={contacts[2].email  }
    
     />
 
